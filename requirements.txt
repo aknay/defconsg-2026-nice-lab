@@ -1,0 +1,4 @@
+h5py
+pycryptodome
+paho-mqtt
+psutil
