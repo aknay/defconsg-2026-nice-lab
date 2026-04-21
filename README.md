@@ -7,4 +7,6 @@
 ### Install from GitHub to run def_con.ipynb
 
 ```bash
+pip install jupyterlab
 pip install git+https://github.com/async2secure/scapyter.git
+jupyter lab
