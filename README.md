@@ -93,7 +93,7 @@ flowchart LR
     PROBE --->|EM Signals| DUT
     DUT --->|Traces| RPI1
     
-    RPI1 -->|Encrypted + Traces| WATCHER
+    RPI1 -->|Encrypted Messages + Traces| WATCHER
 ```
 
 ### Setup
