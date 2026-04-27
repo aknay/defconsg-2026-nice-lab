@@ -18,7 +18,7 @@ class Watcher:
     def __init__(
         self,
         project_file_service: ProjectFileService,
-        broker="broker.hivemq.com",
+        broker="192.168.0.117",
         port=1883,
         known_key: Optional[str] = None,
     ):
