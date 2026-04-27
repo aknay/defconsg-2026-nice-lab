@@ -58,7 +58,7 @@ This setup consists of a central server, two Raspberry Pi devices, and two Ardui
 5. The EM probe and oscilloscope capture these signals as traces.
 6. RPI_1 collects both:
 
-   * Decrypted messages
+   * Encrypted messages
    * Side-channel traces
 7. The Watcher retrieves this data by running a script.
 
@@ -93,7 +93,7 @@ flowchart LR
     PROBE --->|EM Signals| DUT
     DUT --->|Traces| RPI1
     
-    RPI1 -->|Decrypted + Traces| WATCHER
+    RPI1 -->|Encrypted + Traces| WATCHER
 ```
 
 ### Setup
